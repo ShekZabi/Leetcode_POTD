@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int binarySearch(const vector<tuple<int, int, int>>& jobs, int index) {
+    int binarySearch(vector<tuple<int, int, int>>& jobs, int index) {
     int low = 0, high = index - 1;
 
     while (low <= high) {
